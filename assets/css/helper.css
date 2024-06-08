@@ -1,0 +1,27 @@
+:root{
+    --color-primary:#f6d200;
+    --color-grey:#ededed;
+    --color-dark:#000;
+    --color-white:#fff;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+ul{
+    list-style:none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.section-heading{
+    text-transform: capitalize;
+    margin: 30px 0;
+    color: var(--color-dark);
+    text-align: center;
+    font-size: 36px;
+}
